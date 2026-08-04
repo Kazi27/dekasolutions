@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Contact Deka Solutions to start your next web project or learn more about our services.">
+  <meta name="description" content="Get in touch with Deka Solutions about your website or SEO. Call, DM us on Instagram, or send a message below.">
   <meta name="keywords" content="contact deka solutions, get in touch">
   <title>Contact | Deka Solutions</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-sE07qM7kK1cvMdI+W0Li5Pkw6OpppNzmpyZN8/f+5u9fHEqT3Ymk41Dv7Dj7R6rYG+EiVx2QWJIsF6JBelz7RQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -31,26 +31,22 @@
   <section style="margin-top: 80px;" data-aos="fade-up">
     <h2 class="gradient-text">Get in Touch</h2>
     <p style="max-width: 800px; margin: 0 auto 2rem; text-align: center; color: #c7c7c7;">
-      We'd love to hear from you! Use the form below to send us a message. You can also
-      reach us by phone or follow us on social media.
+      Tell us a bit about your business and what you need — we'll get back to you personally,
+      not a bot.
     </p>
     <div class="contact-wrapper">
       <div class="contact-details" data-aos="fade-up" data-aos-delay="100">
         <h3 class="gradient-text">Contact Details</h3>
         <p><i class="fa-solid fa-phone"></i> +1&nbsp;(347)&nbsp;264&nbsp;9232 – Deedat</p>
         <p><i class="fa-solid fa-phone"></i> +1&nbsp;(929)&nbsp;235&nbsp;4770 – Kazi</p>
-        <p><i class="fa-solid fa-envelope"></i> <!-- Email left intentionally blank --> <em>coming soon</em></p>
+        <p><i class="fa-solid fa-envelope"></i> webdevclientmaterials@gmail.com</p>
         <h3 class="gradient-text" style="margin-top: 1.5rem;">Follow Us</h3>
         <div style="display: flex; gap: 0.5rem; font-size: 1.5rem;">
-          <!-- Social icons with empty links to be updated later -->
-          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/dekasolutions_us/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
       <div class="contact-form" data-aos="fade-up" data-aos-delay="200">
-        <form id="contactForm">
+        <form id="contactForm" data-endpoint="https://script.google.com/macros/s/AKfycbw_skF2HagNAEHqKLfQTrOJL8ecYsifTJ6kO4mxm9lsRZEdBVsS2lc3dEU7xmn19WLGpA/exec">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" placeholder="Your name" required>
           <label for="email">Email</label>
@@ -60,6 +56,7 @@
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
           <button type="submit" class="btn">Send Message</button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
     </div>

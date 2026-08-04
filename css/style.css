@@ -355,6 +355,25 @@ section h2 {
   font-size: 1rem;
 }
 
+.contact-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-status {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  min-height: 1.2em;
+}
+
+.form-status.success {
+  color: #4ade80;
+}
+
+.form-status.error {
+  color: #fd1d1d;
+}
+
 /* Footer */
 footer {
   background-color: #0a0a0a;
