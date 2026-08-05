@@ -383,6 +383,13 @@ footer {
   color: #666;
 }
 
+.footer-social {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
+  color: #666;
+}
+
 .menu-toggle {
   display: none;
   width: 44px;
